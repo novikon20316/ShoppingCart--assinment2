@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "230045230678",
+    "project_id": "chipoproject-619c7",
+    "storage_bucket": "chipoproject-619c7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:230045230678:android:015eb6a96ab996062ffdf7",
+        "android_client_info": {
+          "package_name": "com.example.fragmentapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEpbT-f0XIf2C4taJ0atKWc3cZMKayC34"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

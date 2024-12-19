@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.FragmentThree">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvShowName"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2.5"
+                android:textSize="16dp"
+                android:gravity="center"
+                android:text="" />
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="32dp"
+                android:gravity="center"
+                android:text="Shopping cart" />
+
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <Button
+                            android:id="@+id/btnMinus1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="-" />
+
+                        <TextView
+                            android:id="@+id/tvAmount1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="30dp"
+                            android:text="0" />
+
+                        <Button
+                            android:id="@+id/btnPlus1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="+" />
+
+                        <TextView
+                            android:id="@+id/tvItem1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="TextView" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <Button
+                            android:id="@+id/btnMinus2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="-" />
+
+                        <TextView
+                            android:id="@+id/tvAmount2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textSize="30dp"
+                            android:text="0" />
+
+                        <Button
+                            android:id="@+id/btnPlus2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="+" />
+
+                        <TextView
+                            android:id="@+id/tvItem2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="TextView" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <Button
+                            android:id="@+id/btnMinus3"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="-" />
+
+                        <TextView
+                            android:id="@+id/tvAmount3"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="0"
+                            android:textSize="30dp" />
+
+                        <Button
+                            android:id="@+id/btnPlus3"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="+" />
+
+                        <TextView
+                            android:id="@+id/tvItem3"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="TextView" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <Button
+                            android:id="@+id/btnMinus4"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="-" />
+
+                        <TextView
+                            android:id="@+id/tvAmount4"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textSize="30dp"
+                            android:text="0" />
+
+                        <Button
+                            android:id="@+id/btnPlus4"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="+" />
+
+                        <TextView
+                            android:id="@+id/tvItem4"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="TextView" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <Button
+                            android:id="@+id/btnMinus5"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="-" />
+
+                        <TextView
+                            android:id="@+id/tvAmount5"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textSize="30dp"
+                            android:text="0" />
+
+                        <Button
+                            android:id="@+id/btnPlus5"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="+" />
+
+                        <TextView
+                            android:id="@+id/tvItem5"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="TextView" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <Button
+                            android:id="@+id/btnMinus6"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="-" />
+
+                        <TextView
+                            android:id="@+id/tvAmount6"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textSize="30dp"
+                            android:text="0" />
+
+                        <Button
+                            android:id="@+id/btnPlus6"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="+" />
+
+                        <TextView
+                            android:id="@+id/tvItem6"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="TextView" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <Button
+                            android:id="@+id/btnMinus7"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="-" />
+
+                        <TextView
+                            android:id="@+id/tvAmount7"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textSize="30dp"
+                            android:text="0" />
+
+                        <Button
+                            android:id="@+id/btnPlus7"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="+" />
+
+                        <TextView
+                            android:id="@+id/tvItem7"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="TextView" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <Button
+                            android:id="@+id/btnMinus8"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="-" />
+
+                        <TextView
+                            android:id="@+id/tvAmount8"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textSize="30dp"
+                            android:text="0" />
+
+                        <Button
+                            android:id="@+id/btnPlus8"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="+" />
+
+                        <TextView
+                            android:id="@+id/tvItem8"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="TextView" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <Button
+                            android:id="@+id/btnMinus9"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="-" />
+
+                        <TextView
+                            android:id="@+id/tvAmount9"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textSize="30dp"
+                            android:text="0" />
+
+                        <Button
+                            android:id="@+id/btnPlus9"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="+" />
+
+                        <TextView
+                            android:id="@+id/tvItem9"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="TextView" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <Button
+                            android:id="@+id/btnMinus10"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="-" />
+
+                        <TextView
+                            android:id="@+id/tvAmount10"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textSize="30dp"
+                            android:text="0" />
+
+                        <Button
+                            android:id="@+id/btnPlus10"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="+" />
+
+                        <TextView
+                            android:id="@+id/tvItem10"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="TextView" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <Button
+                            android:id="@+id/btnMinus11"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="-" />
+
+                        <TextView
+                            android:id="@+id/tvAmount11"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textSize="30dp"
+                            android:text="0" />
+
+                        <Button
+                            android:id="@+id/btnPlus11"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="+" />
+
+                        <TextView
+                            android:id="@+id/tvItem11"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="TextView" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <Button
+                            android:id="@+id/btnMinus12"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="-" />
+
+                        <TextView
+                            android:id="@+id/tvAmount12"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textSize="30dp"
+                            android:text="0" />
+
+                        <Button
+                            android:id="@+id/btnPlus12"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="+" />
+
+                        <TextView
+                            android:id="@+id/tvItem12"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="TextView" />
+                    </TableRow>
+                </TableLayout>
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/tvShowCart"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="You Selected: None" />
+
+            <Button
+                android:id="@+id/btnPay"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Pay" />
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
